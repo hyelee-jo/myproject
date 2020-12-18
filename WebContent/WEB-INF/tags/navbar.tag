@@ -16,7 +16,7 @@
       </li>
      
       <li class="nav-item">
-        <a class="nav-link" href="${pageContext.request.contextPath }/view/listArticle.jsp" class="nav-link"><i class="fas fa-pen-alt"></i>글 쓰기</a>
+        <a class="nav-link" href="${pageContext.request.contextPath }/view/listArticle.jsp" class="nav-link"><i class="fas fa-pen-alt"></i>게시판</a>
       </li>
       
     </ul>

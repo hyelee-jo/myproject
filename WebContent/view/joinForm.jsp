@@ -24,7 +24,7 @@
 			<div class="col-3"></div>
 			<div class="col-6">
 				<h1>회원 가입</h1>
-				<form action="${root }/join.do" method="post">
+				<form action="${pageContext.request.contextPath }/view/joinWelcome.jsp" method="post">
 					<div class="form-group">
 						<label for="input1-id">아이디</label> <input type="text" name="id"
 							value="${param.id }" class="form-control" id="input1-id">
@@ -62,7 +62,7 @@
 							<small class="form-text text-muted"> 암호와 확인이 일치하지 않습니다. </small>
 						</c:if>
 					</div>
-					<button type="submit" class="btn btn-primary">회원 가입</button>
+					<button type="submit"  class="btn btn-primary">회원 가입</button>
 				</form>
 			</div>
 			<div class="col-3"></div>
@@ -70,3 +70,5 @@
 	</div>
 </body>
 </html>
+
+

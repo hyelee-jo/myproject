@@ -69,7 +69,7 @@
 
 					</table>
 <div class="text-right">
-<a href="" class="btn btn-primary">글쓰기</a>
+<a href="${pageContext.request.contextPath }/view/newArticleForm.jsp" class="btn btn-primary">글쓰기</a>
 </div>
 				</div>
 				<div class="mt-5 pagenation-container d-flex justify-content-center">
